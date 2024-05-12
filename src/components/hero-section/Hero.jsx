@@ -46,16 +46,16 @@ const Hero = () => {
         <div className="figures">
           <div>
             <span>
-              <NumberCounter end={140} start={100} delay="4" prefix="+" />
+              <NumberCounter end={140} start={100} delay="4" preFix="+" />
             </span>
             <span>expert coaches</span>
           </div>
           <div>
-            <span><NumberCounter end={978} start={920} delay="4" prefix="+" /></span>
+            <span><NumberCounter end={978} start={920} delay="4" preFix="+" /></span>
             <span>Members joined</span>
           </div>
           <div>
-            <span><NumberCounter end={50} start={35} delay="4" prefix="+" /></span>
+            <span><NumberCounter end={50} start={35} delay="4" preFix="+" /></span>
             <span>fitness programs</span>
           </div>
         </div>
